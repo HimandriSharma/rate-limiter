@@ -5,7 +5,15 @@
   "repository": "https://github.com/HimandriSharma/rate-limiter.git",
   "author": "HimandriSharma <himandrisharma27@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "dev": "nodemon src/app.ts"
+  },
   "dependencies": {
-    "express": "^4.21.1"
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
