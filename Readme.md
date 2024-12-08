@@ -16,8 +16,8 @@ This project implements a custom rate limiter using Redis to track and control i
 1. Clone the Repository
 
 ``` bash
-git clone <repository_url>
-cd custom-redis-rate-limiter
+git clone https://github.com/HimandriSharma/rate-limiter.git
+cd rate-limiter
 ```
 2. Install Dependencies (Optional) If you plan to run the project without Docker:
 ```
