@@ -2,7 +2,7 @@ import moment from "moment";
 import * as redis from "redis";
 import { Request, Response, NextFunction } from "express";
 
-const redisClient = redis.createClient({ url: "redis://localhost:6379", });
+const redisClient = redis.createClient({ url: "redis://redis:6379", });
 
 redisClient.on("error", (err) => console.error("Redis Client Error", err));
 
